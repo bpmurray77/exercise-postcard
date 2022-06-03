@@ -1,13 +1,43 @@
 body {
 	background: black;
 }
-* {
-	border: 1px dashed red;
-	min-height: 10px;
-}
 .postcard {
 	background: white;
 	width: 400px;
 	height: 300px;
 	margin: auto;
+}
+.postcard-header {
+	display: flex;
+}
+h1 {
+	width: 350px;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.body-right {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+input {
+	position: relative;
+	top: 10px;
+	border: none;
+	border-bottom: 1px solid grey;
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: darkgrey;
+}
+img {
+	position: relative;
+	top: 10px;
+	right: 10px;
 }
